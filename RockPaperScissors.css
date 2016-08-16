@@ -1,0 +1,56 @@
+body{
+	text-align: center;
+}
+h1{
+	margin: 0;
+	padding: 0;
+}
+.fa{
+	border: 5px solid black;
+	border-radius: 50%;
+	padding: 30px;
+	margin: 10px;
+}
+.fa:hover{
+   color: green;
+   text-shadow: -2px 2px #346392;
+   background-image: linear-gradient(top, #6496c8, #346392);
+   box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+
+}
+#demo{
+	font-size: 200%;
+	padding: 20px;
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	border: 2px solid black;
+	display: inline-block;
+	width: 60%;
+	min-height: 100px;
+	margin: 0;
+}
+button{
+	width: 200px;
+	height: 50px;
+	margin: 10px;
+}
+header{
+	min-height: 100px;
+}
+#playerOneScore{
+	position: relative;
+	background-color: green;
+	color: white;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+#playerTwoScore{
+	position: relative;
+	background-color: green;
+	color: white;
+	width: 150px;
+	height: 100px;
+	float: right;
+}
